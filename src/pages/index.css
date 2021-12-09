@@ -1,0 +1,40 @@
+p {
+  font-family: "poppins";
+}
+
+h1 {
+  font-family: "manrope";
+  font-weight: "800";
+  font-size: 65px;
+  text-align: center;
+  color: rgb(38, 43, 58);
+}
+
+.p-subtext {
+  text-align: center;
+  font-size: 24px;
+  color: rgb(38, 43, 58);
+}
+
+.hero-banner {
+  background: rgb(13, 216, 145);
+  min-height: 300px;
+  width: 100vw;
+  position: relative;
+  left: calc(-50vw + 50%);
+}
+
+/* .hero-banner::before {
+  content: "";
+  background-color: rgb(13, 216, 145);
+  position: absolute;
+  height: 300px;
+  width: 200vw;
+  left: -100vw;
+  z-index: -1;
+} */
+
+.hero-subtitle {
+  margin: auto;
+  width: 600px;
+}
