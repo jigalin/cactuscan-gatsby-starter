@@ -1,13 +1,15 @@
-p {
-  font-family: "poppins";
-}
-
 h1 {
-  font-family: "manrope";
-  font-weight: "800";
   font-size: 65px;
   text-align: center;
   color: rgb(38, 43, 58);
+}
+
+h1::selection,
+br::selection,
+p::selection,
+h2::selection,
+h3::selection {
+  background: rgb(93, 78, 189);
 }
 
 h2 {
@@ -34,7 +36,7 @@ h2 {
 }
 
 .header-1 {
-  margin-top: 80px;
+  margin-top: 50px;
   color: rgb(38, 43, 58);
 }
 

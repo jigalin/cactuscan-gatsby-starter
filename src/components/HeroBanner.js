@@ -5,12 +5,14 @@ import Fade from "react-reveal/Fade"
 
 export const HeroBanner = () => {
   return (
-    <div classname="top">
+    <div className="top">
       <div className="hero-banner">
         <div style={{ paddingTop: "90px" }}>
           <Fade top distance="40px">
             <h1>
-              We're the future of <br></br>creative marketing.
+              We are the <mark className="h1-highlight">future</mark> of
+              <br></br>
+              creative marketing.
             </h1>
           </Fade>
           <Fade left distance="40px">

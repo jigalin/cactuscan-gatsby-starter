@@ -51,7 +51,7 @@ const Layout = ({ children }) => {
             <a
               href="https://www.github.com/jigalin"
               target="_blank"
-              rel=""
+              rel="noreferrer"
               style={{ textDecoration: "none", color: "rgb(93, 176, 145)" }}
             >
               M. Jigalin
