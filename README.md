@@ -4,7 +4,7 @@
   <h3><a href="https://matthewjigalin-react-portfolio.netlify.app/" target="_blank">Live Preview</a></h3>
 </div>
 
-<div align="center"><img src="https://user-images.githubusercontent.com/29565530/145673019-4a050862-5867-43bc-9842-2564cc8f9a57.gif" /></div>
+<div align="center"><img src="https://user-images.githubusercontent.com/29565530/145673271-2de7586e-f759-423e-bf5f-36f8e2d6afe7.gif" /></div>
 <div align="center">
   <p>Homepage overview</p>
 </div>
