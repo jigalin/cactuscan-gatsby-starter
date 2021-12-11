@@ -1,5 +1,5 @@
 <div align="center">
-  <h1>⭐<br>Gatsby One-Page Starter Template (WIP)</h1>
+  <h1>⭐<br>CactusCan Gatsby Starter Template (WIP)</h1>
   <h3>Gatsby One-Pager made with ReactJs, Gatsby, GraphQL, React-Reveal</h3>
   <h3><a href="https://matthewjigalin-react-portfolio.netlify.app/" target="_blank">Live Preview</a></h3>
 </div>
