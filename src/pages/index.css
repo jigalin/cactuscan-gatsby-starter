@@ -16,9 +16,12 @@ h2 {
   color: rgb(70, 53, 182);
 }
 
-.main-content {
-  margin-top: 70px;
-  margin-bottom: 150px;
+.img {
+  margin-bottom: 0px;
+}
+
+.top-content {
+  margin-top: 50px;
 }
 
 .img-round {
@@ -50,13 +53,12 @@ h2 {
 
 .content-wrapper-2-parent {
   position: relative;
+  margin-top: -200px;
 }
 
 .content-wrapper-2 {
-  position: absolute;
+  position: relative;
   width: 100%;
-  top: -300px;
-  left: 0;
 }
 
 .accent-2 {
@@ -64,26 +66,38 @@ h2 {
   position: relative;
   left: calc(-50vw + 50%);
   z-index: -1;
+  display: flex;
 }
 
-.img {
-  margin-bottom: 0px;
-}
-
-.accent-bottom {
-  background: rgb(13, 216, 145);
-  z-index: -1;
-  min-height: 200px;
-  top: -10px;
+.main-content-bg {
+  background: #4635b6;
   width: 100vw;
   position: relative;
   left: calc(-50vw + 50%);
+  min-height: 300px;
+  padding-bottom: 100px;
 }
 
-.green-content {
-  background: rgb(13, 216, 145);
-  width: 100vw;
-  position: relative;
-  top: -10px;
-  left: calc(-50vw + 50%);
+.main-content {
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.h1-white {
+  padding-top: 30px;
+  color: white;
+  text-align: left;
+  font-size: 50px;
+}
+
+.h2-sub-white {
+  color: white;
+  font-family: poppins;
+  font-size: 22px;
+  text-align: left;
+  font-weight: 400;
+}
+
+@media screen and (min-width: 1400px) {
 }
