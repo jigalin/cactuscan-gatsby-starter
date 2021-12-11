@@ -48,37 +48,14 @@ const IndexPage = () => {
                     >
                       services.
                     </a>
+                    <br />
+                    In the meantime, here's the latest from NASA.
                   </h2>
                   <div>
                     <Pulse>
-                      <h1 className="h1-white" style={{ textAlign: "center" }}>
-                        CONTENT SECTION TBC
-                      </h1>
-                    </Pulse>
-                    <Pulse>
-                      <h1 className="h1-white" style={{ textAlign: "center" }}>
-                        CONTENT SECTION TBC
-                      </h1>
-                    </Pulse>
-                    <Pulse>
-                      <h1 className="h1-white" style={{ textAlign: "center" }}>
-                        CONTENT SECTION TBC
-                      </h1>
-                    </Pulse>
-                    <Pulse>
-                      <h1 className="h1-white" style={{ textAlign: "center" }}>
-                        CONTENT SECTION TBC
-                      </h1>
-                    </Pulse>
-                    <Pulse>
-                      <h1 className="h1-white" style={{ textAlign: "center" }}>
-                        CONTENT SECTION TBC
-                      </h1>
+                      <DynamicContent />
                     </Pulse>
                   </div>
-                  <Pulse>
-                    <DynamicContent />
-                  </Pulse>
                 </div>
               </div>
             </div>

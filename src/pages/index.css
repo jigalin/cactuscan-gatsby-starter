@@ -94,6 +94,7 @@ h2 {
 }
 
 .h2-sub-white {
+  margin-top: -20px;
   color: white;
   font-family: poppins;
   font-size: 22px;
