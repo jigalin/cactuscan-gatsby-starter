@@ -4,7 +4,7 @@ import { PageProps, Link, graphql } from "gatsby"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
-import { ColourPalette } from "../components/Colours"
+import { ColourPalette } from "../types/Colours"
 
 type DataProps = {
   site: {
