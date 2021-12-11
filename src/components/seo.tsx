@@ -25,8 +25,8 @@ function Seo({ description, lang, meta, title }) {
     `
   )
 
-  const metaDescription = description || site.siteMetadata.description
-  const defaultTitle = site.siteMetadata?.title
+  const metaDescription: String = description || site.siteMetadata.description
+  const defaultTitle: String = site.siteMetadata?.title
 
   return (
     <Helmet

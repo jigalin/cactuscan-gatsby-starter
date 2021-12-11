@@ -3,7 +3,7 @@ import "./HeroBanner.css"
 import accent1 from "../images/home-green-accent-1.svg"
 import Fade from "react-reveal/Fade"
 
-export const HeroBanner = () => {
+export const HeroBanner: React.FC = () => {
   return (
     <div className="top">
       <div className="hero-banner">

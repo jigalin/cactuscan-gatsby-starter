@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react"
 import "./Navbar.css"
 
 export default function Navbar() {
-  const [stickyClass, setStickyClass] = useState("")
+  const [stickyClass, setStickyClass] = useState<String>("")
 
   useEffect(() => {
     window.addEventListener("scroll", stickNavbar)

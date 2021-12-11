@@ -1,6 +1,5 @@
 import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
-import { useEffect } from "react"
 
 export const DynamicContent = () => {
   const data = useStaticQuery(graphql`
