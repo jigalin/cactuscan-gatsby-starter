@@ -37,7 +37,7 @@ const IndexPage = () => {
               </div>
               <div className="main-content-bg">
                 <div className="main-content">
-                  <h1 className="h1-white">Services we offer</h1>
+                  <h1 className="h1-white">Interplanatory Services.</h1>
                   <h2 className="h2-sub-white">
                     Get started today with our wide offering of{" "}
                     <a
