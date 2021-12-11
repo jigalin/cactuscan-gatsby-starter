@@ -1,6 +1,5 @@
 import * as React from "react"
 import PropTypes from "prop-types"
-import { Link } from "gatsby"
 import logo from "../images/CactusLogo.svg"
 import "./header.css"
 
@@ -17,7 +16,7 @@ const Header = ({ siteTitle }) => (
       }}
     >
       <div style={{ display: "inline-flex", paddingTop: "35px" }}>
-        <img src={logo} style={{ maxHeight: "50px" }} />
+        <img src={logo} alt="" style={{ maxHeight: "50px" }} />
       </div>
       <div style={{ display: "inline-flex" }}>
         <input type="button" value="Learn More" className="btn-alt" />

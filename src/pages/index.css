@@ -10,31 +10,80 @@ h1 {
   color: rgb(38, 43, 58);
 }
 
-.p-subtext {
+h2 {
+  font-size: 55px;
   text-align: center;
-  font-size: 24px;
+  color: rgb(70, 53, 182);
+}
+
+.main-content {
+  margin-top: 70px;
+  margin-bottom: 150px;
+}
+
+.img-round {
+  border-radius: 20px;
+  box-shadow: 0 16px 24px -8px rgb(25 0 65 / 32%);
+  width: 80%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header-1 {
+  margin-top: 80px;
   color: rgb(38, 43, 58);
 }
 
-.hero-banner {
+.sub-header-1 {
+  text-align: center;
+  color: rgb(38, 43, 58);
+  font-size: 20px;
+  max-width: 550px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.img-1-div {
+  margin-top: 50px;
+}
+
+.content-wrapper-2-parent {
+  position: relative;
+}
+
+.content-wrapper-2 {
+  position: absolute;
+  width: 100%;
+  top: -300px;
+  left: 0;
+}
+
+.accent-2 {
+  width: 100vw;
+  position: relative;
+  left: calc(-50vw + 50%);
+  z-index: -1;
+}
+
+.img {
+  margin-bottom: 0px;
+}
+
+.accent-bottom {
   background: rgb(13, 216, 145);
-  min-height: 300px;
+  z-index: -1;
+  min-height: 200px;
+  top: -10px;
   width: 100vw;
   position: relative;
   left: calc(-50vw + 50%);
 }
 
-/* .hero-banner::before {
-  content: "";
-  background-color: rgb(13, 216, 145);
-  position: absolute;
-  height: 300px;
-  width: 200vw;
-  left: -100vw;
-  z-index: -1;
-} */
-
-.hero-subtitle {
-  margin: auto;
-  width: 600px;
+.green-content {
+  background: rgb(13, 216, 145);
+  width: 100vw;
+  position: relative;
+  top: -10px;
+  left: calc(-50vw + 50%);
 }

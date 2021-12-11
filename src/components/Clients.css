@@ -1,0 +1,15 @@
+.clients-wrapper {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 20px;
+}
+
+.div-client {
+  display: inline-block;
+  height: 100%;
+}
+
+.img-client {
+  height: 100px;
+}
